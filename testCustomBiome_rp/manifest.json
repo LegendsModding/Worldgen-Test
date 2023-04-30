@@ -1,9 +1,9 @@
 {
   "format_version": 2,
   "header": {
-    "description": "Frostfire testing.",
+    "description": "pack.description",
     "min_engine_version": [1, 16, 0],
-    "name": "Frostfire",
+    "name": "biomeTest",
     "uuid": "cac13e24-1f27-4043-845f-f4ecab2b4b22",
     "version": [1, 0, 0]
   },

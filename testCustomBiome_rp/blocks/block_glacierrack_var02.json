@@ -1,8 +1,0 @@
-{
-    "format_version": "1.15.0",
-    "badger:client_block": {
-        "badger:block_glacierrack_var02": {
-            "textures": "textures/blocks/tex_block_glacierrack_var02"
-        }
-    }
-}

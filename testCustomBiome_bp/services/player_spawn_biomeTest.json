@@ -1,7 +1,7 @@
 {
     "badger:player_spawn_service": {
       "badger:template": {
-        "game_mode": "frostfire",
+        "game_mode": "biomeTest",
         "parent": "badger:player_spawn_service"
       },
       "default_mount_archetype": "",

@@ -5,7 +5,7 @@
 	"bsharpenabled": true,
 	"campaignactsenabled": false,
 	"campaignobjectivehealthbars": false,
-	"creativemodedefault": true,
+	"creativemodedefault": false,
 	"difficultymodeenabled": false,
 	"dodaylightcycle": true,
 	"dofogofwar": true,
@@ -30,6 +30,6 @@
   },
   "badger:template": {
     "parent": "game_rules",
-    "game_mode": "frostfire"
+    "game_mode": "biomeTest"
   }
 }

@@ -1,8 +1,28 @@
 {
   "factions": [
     {
-      "unique_card_id": "badger_glacier_mountain_1",
-      "placement_name": "glacier_mountain_1",
+      "unique_card_id": "badger_center_biomeTest_center",
+      "placement_name": "center",
+      "placement_type": "special",
+      "spawn_entity": "badger:world_center_locator",
+      "initial_villages": {
+        "small": {
+          "count": 1
+        }
+      },
+      "tags": [
+        "biomeTest",
+        "center"
+      ],
+      "placement_rules": [
+        {
+          "game_start": {}
+        }
+      ]
+    },
+    {
+      "unique_card_id": "badger_biomeTest_1",
+      "placement_name": "biomeTest_1",
       "placement_type": "biome",
       "initial_villages": {
         "small": {
@@ -10,13 +30,13 @@
         }
       },
       "tags": [
-        "frostfire",
-        "glacier_mountain_set1"
+        "biomeTest",
+        "testset1"
       ],
       "biome": {
-        "biome": "glacier_mountain_parent_valleys",
-        "total_pixels": 10,
-        "starting_pixels": 10,
+        "biome": "mountain_parent_valleys",
+        "total_pixels": 32,
+        "starting_pixels": 5,
         "spread_priority": 1
       },
       "placement_rules": [
@@ -24,7 +44,7 @@
           "distance": {
             "chunk_distance_from_parent": [
               0,
-              300
+              100
             ],
             "distance_to_zero_score": 20,
             "tag_parent": "center",
@@ -34,8 +54,8 @@
       ]
     },
     {
-      "unique_card_id": "badger_glacier_mountain_2",
-      "placement_name": "glacier_mountain_2",
+      "unique_card_id": "badger_biomeTest_2",
+      "placement_name": "biomeTest_2",
       "placement_type": "biome",
       "initial_villages": {
         "small": {
@@ -43,13 +63,13 @@
         }
       },
       "tags": [
-        "frostfire",
-        "glacier_mountain_set2"
+        "biomeTest",
+        "testset2"
       ],
       "biome": {
-        "biome": "glacier_mountain_parent_valleys",
-        "total_pixels": 10,
-        "starting_pixels": 10,
+        "biome": "brokenlands_valleys",
+        "total_pixels": 32,
+        "starting_pixels": 5,
         "spread_priority": 1
       },
       "placement_rules": [
@@ -57,7 +77,7 @@
           "distance": {
             "chunk_distance_from_parent": [
               0,
-              300
+              100
             ],
             "distance_to_zero_score": 20,
             "tag_parent": "center",

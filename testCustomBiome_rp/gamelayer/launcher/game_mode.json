@@ -2,16 +2,16 @@
     "game_modes": [
       {
         "behavior_pack": "dc3befbf-c6bc-40b0-bc5e-501cd5658869",
-        "default_privacy": 0,
+        "default_privacy": 2,
         "loading_tip_set": "campaign",
-        "max_players": 1,
-        "name": "frostfire",
+        "max_players": 4,
+        "name": "biomeTest",
         "parent": "myth",
         "resource_pack": "cac13e24-1f27-4043-845f-f4ecab2b4b22",
-        "telemetry_name": "frostfire",
+        "telemetry_name": "biomeTest",
         "ui_style": "lostLegend"
       }
     ],
-    "myths_hub_host_list": [{ "name": "frostfire_test" }]
+    "myths_hub_host_list": [{ "name": "biomeTest" }]
   }
   

@@ -1,9 +1,0 @@
-{
-    "format_version": "1.15.0",
-    "badger:client_block": {
-        "badger:block_deco_banner_frostfire": {
-            "decoration": "deco_banner_frostfire",
-            "textures": "blank"
-        }
-    }
-}
