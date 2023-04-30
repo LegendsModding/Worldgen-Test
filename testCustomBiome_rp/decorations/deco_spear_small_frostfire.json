@@ -1,0 +1,10 @@
+{
+    "format_version": "1.15.0",
+    "badger:decoration": {
+        "block_deco_spear_head_small_frostfire": {
+            "geometry": "geometry.block_deco_spear_small_frostfire_geo",
+            "up": "surface",
+            "forward": "world"
+        }
+    }
+}

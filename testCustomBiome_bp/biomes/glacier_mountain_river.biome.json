@@ -1,0 +1,76 @@
+{
+   "format_version" : "1.13.0",
+   "minecraft:biome" : {
+      "components" : {
+         "badger:overworld_height" : {
+            "height_params": {
+               "texture_heights": [13, 25],
+               "average_height": 18
+            },
+            "noise_params" : [ -0.75, -0.15 ]
+         },
+         "badger:visual_biome_attributes" : {
+            "grass" : {
+               "normal" : {
+                  "grass_noise_intensity" : 0.0,
+                  "grass_noise_scale" : 0.0,
+                  "grass_surface_color" : "#B0F9EF"
+               },
+               "overlay" : {
+                  "grass_overlay_noise_bias" : 0.0,
+                  "grass_overlay_noise_intensity" : 0.0,
+                  "grass_overlay_noise_scale" : 0.0,
+                  "grass_overlay_surface_color" : "#B0F9EF"
+               }
+            },
+            "map" : {
+               "biome_banner" : "map_screen/banners/legend_banner_biome_glacier_mountain.png",
+               "biome_display_name" : "glacier_mountain",
+               "common_resource_icon" : "/icons/resources/resource_cryolite.png",
+               "map_color" : "#B0F9EF",
+               "map_color_odd" : "#B0F9EF",
+               "map_pattern_index" : 12
+            },
+            "particulates" : {
+               "nether_spores" : 0.0,
+               "sparkles" : 0.75
+            },
+            "rain" : {
+               "downfall" : 0.0,
+               "lower_limit" : 1.0,
+               "rain_to_snow_height" : 120,
+               "rain_to_snow_transition_size" : 5,
+               "snow_to_rain_density_ratio" : 0.75,
+               "upper_limit" : 1.0
+            },
+            "water" : {
+               "water_blur_distance" : 15.0,
+               "water_color_blend_distance" : 0.0,
+               "water_depths_color" : "#B0F9EF",
+               "water_surface_color" : "#B0F9EF",
+               "water_surface_transparency" : 0.6499999761581421
+            }
+         },
+         "minecraft:surface_parameters" : {
+            "default_surface" : {
+               "mid_material" : "badger:block_glacierrack",
+               "weighted_top_materials" : [
+                  [ "badger:block_glacierrack", 96 ],
+                  [ "badger:block_glacierrack_var01", 53 ],
+                  [ "badger:block_glacierrack_var02", 53 ],
+                  [ "badger:block_glacierrack_var03", 53 ]
+               ]
+            },
+            "foundation_material" : "badger:block_glacierrack",
+            "sea_floor_depth" : 5,
+            "sea_floor_material" : "badger:block_glacierrack",
+            "sea_material" : "badger:block_frostlava"
+         },
+         "overworld" : {},
+         "river" : {}
+      },
+      "description" : {
+         "identifier" : "glacier_mountain_river"
+      }
+   }
+}

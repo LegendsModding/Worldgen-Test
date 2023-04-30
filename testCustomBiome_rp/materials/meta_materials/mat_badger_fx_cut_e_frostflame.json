@@ -1,0 +1,9 @@
+{
+    "format_version": "1.8.0",
+    "mat_badger_fx_cut_e_frostflame:mat_badger_particles_cutout_emissive": {
+        "textures": {
+            "diffuseMap": "textures/particle/tex_fx_frostflame_b",
+            "emissiveMap": "textures/particle/tex_fx_frostflame_e"
+        }
+    }
+}

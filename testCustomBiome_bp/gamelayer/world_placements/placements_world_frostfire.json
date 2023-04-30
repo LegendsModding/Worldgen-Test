@@ -1,0 +1,70 @@
+{
+  "factions": [
+    {
+      "unique_card_id": "badger_glacier_mountain_1",
+      "placement_name": "glacier_mountain_1",
+      "placement_type": "biome",
+      "initial_villages": {
+        "small": {
+          "count": 1
+        }
+      },
+      "tags": [
+        "frostfire",
+        "glacier_mountain_set1"
+      ],
+      "biome": {
+        "biome": "glacier_mountain_parent_valleys",
+        "total_pixels": 10,
+        "starting_pixels": 10,
+        "spread_priority": 1
+      },
+      "placement_rules": [
+        {
+          "distance": {
+            "chunk_distance_from_parent": [
+              0,
+              300
+            ],
+            "distance_to_zero_score": 20,
+            "tag_parent": "center",
+            "weight": 3
+          }
+        }
+      ]
+    },
+    {
+      "unique_card_id": "badger_glacier_mountain_2",
+      "placement_name": "glacier_mountain_2",
+      "placement_type": "biome",
+      "initial_villages": {
+        "small": {
+          "count": 1
+        }
+      },
+      "tags": [
+        "frostfire",
+        "glacier_mountain_set2"
+      ],
+      "biome": {
+        "biome": "glacier_mountain_parent_valleys",
+        "total_pixels": 10,
+        "starting_pixels": 10,
+        "spread_priority": 1
+      },
+      "placement_rules": [
+        {
+          "distance": {
+            "chunk_distance_from_parent": [
+              0,
+              300
+            ],
+            "distance_to_zero_score": 20,
+            "tag_parent": "center",
+            "weight": 3
+          }
+        }
+      ]
+    }
+  ]
+}
