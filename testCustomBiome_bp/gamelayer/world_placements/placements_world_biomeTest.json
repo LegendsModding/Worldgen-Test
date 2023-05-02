@@ -4,6 +4,7 @@
       "unique_card_id": "badger_center_biomeTest_center",
       "placement_name": "center",
       "placement_type": "special",
+	    "village_data": "badger:xp_well_of_fate",
       "spawn_entity": "badger:world_center_locator",
       "initial_villages": {
         "small": {
@@ -14,6 +15,12 @@
         "biomeTest",
         "center"
       ],
+      "biome": {
+        "biome": "mountain_parent_valleys",
+        "total_pixels": 16,
+        "starting_pixels": 16,
+        "spread_priority": 1
+      },
       "placement_rules": [
         {
           "game_start": {}
@@ -35,7 +42,7 @@
       ],
       "biome": {
         "biome": "mountain_parent_valleys",
-        "total_pixels": 32,
+        "total_pixels": 16,
         "starting_pixels": 5,
         "spread_priority": 1
       },

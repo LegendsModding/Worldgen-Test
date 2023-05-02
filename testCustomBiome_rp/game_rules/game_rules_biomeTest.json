@@ -3,7 +3,7 @@
 	"allowislands": false,
 	"autosaveenabled": true,
 	"bsharpenabled": true,
-	"campaignactsenabled": false,
+	"campaignactsenabled": true,
 	"campaignobjectivehealthbars": false,
 	"creativemodedefault": false,
 	"difficultymodeenabled": false,

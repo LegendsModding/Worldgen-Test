@@ -4,11 +4,11 @@
         "game_mode": "biomeTest",
         "parent": "badger:player_spawn_service"
       },
-      "default_mount_archetype": "",
-      "min_block_radius": 100,
+      "default_mount_archetype": "badger:mount_tiger",
+      "min_block_radius": 150,
       "pending_villages": [],
       "player_archetype": "minecraft:player",
-      "respawn_seconds": 0.0
+      "respawn_seconds": 3.0
     }
   }
   
