@@ -1,2 +1,4 @@
 # Worldgen-Test
-(works but we need to figure out spawning better)
+IT WORKS!
+
+Will be expanding upon it soon.
