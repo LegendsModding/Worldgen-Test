@@ -1,0 +1,16 @@
+﻿biome.ff_glacier_mountain_foothills=frostfire peaks	### Title of a biome in game Appears at the top of the screen when entering a new biome.Tiny string: 0-20 characters
+biome.ff_glacier_mountain_legend=Test biome descriptor text, long so is enough character like the thing says.	### The text displayed when this biome is highlighted on the world map.Long string: 60-250 characters.
+biome.ff_glacier_mountain_mid_hills=frostfire peaks	### Title of a biome in game Appears at the top of the screen when entering a new biome.Tiny string: 0-20 characters
+biome.ff_glacier_mountain_parent_valleys=frostfire peaks	### Title of a biome in game Appears at the top of the screen when entering a new biome.Tiny string: 0-20 characters
+biome.ff_glacier_mountain_peaks=frostfire peaks	### Title of a biome in game Appears at the top of the screen when entering a new biome.Tiny string: 0-20 characters
+biome.ff_glacier_mountain_river= 	### {Locked} Do-not-translate (String is actually used for hiding UI element)
+biome.ff_glacier_mountain_rivers= 	### {Locked} Do-not-translate (String is actually used for hiding UI element)
+biome.ff_glacier_mountain_summit=frostfire peaks	### Title of a biome in game Appears at the top of the screen when entering a new biome.Tiny string: 0-20 characters
+biome.ff_glacier_mountain=frostfire peaks	### Title of a biome in game Appears at the top of the screen when entering a new biome.Tiny string: 0-20 characters
+
+frostfireTest.title=Frostfire ### Myth title?
+
+pack.name=Frostfire Test ### Pack name
+pack.description=by Miclee ### Pack descriptor
+
+

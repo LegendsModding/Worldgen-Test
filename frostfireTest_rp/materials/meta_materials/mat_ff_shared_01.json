@@ -1,0 +1,11 @@
+{
+    "format_version": "1.8.0",
+    "mat_ff_shared_01:base_block_cutout": {
+        "textures": {
+            "diffuseMap": "textures/blocks/tex_ff_shared_01_d",
+            "coeffMap": "textures/blocks/tex_ff_shared_01_mr",
+            "emissiveMap": "textures/blocks/tex_ff_shared_01_e",
+            "normalMap": "textures/blocks/tex_ff_shared_01_n"
+        }
+    }
+}

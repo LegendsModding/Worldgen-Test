@@ -1,0 +1,128 @@
+{
+   "format_version" : "1.13.0",
+   "minecraft:biome" : {
+      "components" : {
+         "badger:overworld_height" : {
+            "height_params": {
+               "texture_heights": [13, 30],
+               "average_height": 18
+            },
+            "noise_params" : [ -0.60, 0.0 ]
+         },
+         "badger:visual_biome_attributes" : {
+            "grass" : {
+               "normal" : {
+                  "grass_noise_intensity" : 0.0,
+                  "grass_noise_scale" : 0.0,
+                  "grass_surface_color" : "#000000"
+               },
+               "overlay" : {
+                  "grass_overlay_noise_bias" : 0.0,
+                  "grass_overlay_noise_intensity" : 0.0,
+                  "grass_overlay_noise_scale" : 0.0,
+                  "grass_overlay_surface_color" : "#000000"
+               }
+            },
+            "map" : {
+               "biome_banner" : "map_screen/banners/legend_banner_ff_biome_glacier_mountain.png",
+               "biome_display_name" : "ff_glacier_mountain",
+               "common_resource_icon" : "/icons/resources/resource_ff_cryolite.png",
+               "map_color" : "#4B0082",
+               "map_color_odd" : "#4B0082",
+               "map_pattern_index" : 12
+            },
+            "particulates" : {
+               "nether_spores" : 0.85,
+               "sparkles" : 0.0
+            },
+            "rain" : {
+               "downfall" : 0.0,
+               "lower_limit" : 1.0,
+               "rain_to_snow_height" : 20,
+               "rain_to_snow_transition_size" : 5,
+               "snow_to_rain_density_ratio" : 0.75,
+               "upper_limit" : 1.0
+            },
+            "water" : {
+               "water_blur_distance" : 5.0,
+               "water_color_blend_distance" : 10.0,
+               "water_depths_color" : "#00FF00",
+               "water_surface_color" : "#0B5238",
+               "water_surface_transparency" : 0.6499999761581421
+            }
+         },
+         "minecraft:surface_parameters" : {
+            "ordered_surface" : {
+               "stacks" : [
+                  {
+                     "height_range" : [ 0, 30 ],
+                     "layers" : [
+                        {
+                           "blocks_weighted" : [
+                              [ "badger:block_ff_ice", 1 ]
+                           ]
+                        },
+                        {
+                           "blocks_weighted" : [
+                              [ "badger:block_ff_ice", 1 ]
+                           ]
+                        },
+                        {
+                           "blocks_weighted" : [
+                              [ "badger:block_ff_ice", 1 ]
+                           ]
+                        },
+                        {
+                           "blocks_weighted" : [
+                              [ "badger:block_ff_snow", 1 ]
+                           ]
+                        },
+                        {
+                           "blocks_weighted" : [
+                              [ "badger:block_ff_snow", 1 ]
+                           ]
+                        },
+                        {
+                           "blocks_weighted" : [
+                              [ "badger:block_ff_frostrock_snowy_01", 1 ]
+                           ]
+                        },
+                        {
+                           "blocks_weighted" : [
+                              [ "badger:block_ff_frostrock_01", 1 ]
+                           ]
+                        },
+                        {
+                           "blocks_weighted" : [
+                              [ "badger:block_ff_frostrock_02", 1 ]
+                           ]
+                        },
+                        {
+                           "blocks_weighted" : [
+                              [ "badger:block_ff_frostrock_03", 1 ],
+                              [ "badger:block_ff_frostrock_04", 1 ],
+                              [ "badger:block_ff_frostrock_05", 1 ],
+                              [ "badger:block_ff_frostrock_06", 1 ]
+                           ],
+                           "depth_range" : [ 7, 45 ]
+                        }
+                     ],
+                     "top_down" : true
+                  }
+
+               ]
+            },
+            "foundation_material" : "badger:block_ff_glacierrack",
+            "sea_floor_depth" : 5,
+            "sea_floor_material" : "badger:block_ff_glacierrack_var03",
+            "sea_material" : "badger:block_ff_frostlava"
+         },
+         "overworld" : {},
+         "ff_glacier_mountain" : {},
+         "river" : {}
+      },
+      "description" : {
+         "identifier" : "ff_glacier_mountain_river"
+      }
+   }
+}

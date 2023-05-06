@@ -1,0 +1,41 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "badger:rule_ff_player_buff",
+      "places_feature": "badger:feature_ff_player_buff"
+    },
+    "conditions": {
+      "enabled": true,
+      "placement_pass": "surface_pass",
+      "minecraft:biome_filter": [
+        {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "ff_glacier_mountain"
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 25,
+      "scatter_chance": 0.95,
+      "early_out": "q.water_distance(v.scatteredx, v.scatteredz) <= 5",
+      "coordinate_eval_order": "xzy",
+      "x": {
+        "distribution": "uniform",
+        "extent": [
+          0,
+          15
+        ]
+      },
+      "z": {
+        "distribution": "uniform",
+        "extent": [
+          0,
+          15
+        ]
+      },
+      "y": "q.heightmap(v.worldx, v.worldz)"
+    }
+  }
+}

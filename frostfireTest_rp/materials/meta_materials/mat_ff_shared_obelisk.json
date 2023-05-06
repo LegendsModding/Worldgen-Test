@@ -1,0 +1,9 @@
+{
+  "format_version": "1.8.0", 
+  "mat_ff_shared_obelisk:base_entity_static": {
+    "textures": {
+      "diffuseMap": "textures/blocks/tex_ff_shared_obelisk_d", 
+      "emissiveMap": "textures/blocks/tex_ff_shared_obelisk_e"
+    }
+  }
+}

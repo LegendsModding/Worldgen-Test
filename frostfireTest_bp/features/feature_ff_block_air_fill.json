@@ -1,0 +1,23 @@
+{
+  "format_version": "1.13.0",
+  "code:place_block": {
+    "description": {
+      "identifier": "badger:feature_ff_block_air_fill"
+    },
+    "may_replace": [
+      "badger:block_ff_snow",
+      "badger:block_ff_frostrock_01",
+      "badger:block_ff_frostrock_02",
+      "badger:block_ff_frostrock_03",
+      "badger:block_ff_frostrock_04",
+      "badger:block_ff_frostrock_05",
+      "badger:block_ff_frostrock_06",
+      "badger:block_ff_ice",
+      "badger:block_ff_dirt_snowy",
+      "badger:block_ff_dirt"
+    ],
+    "enforce_survivability_rules": false,
+    "enforce_placement_rules": false,
+    "places_block":  "minecraft:air"
+  }
+}

@@ -1,0 +1,11 @@
+{
+    "format_version": "1.15.0",
+    "badger:decoration": {
+        "deco_ff_brazier_large": {
+            "geometry": "geometry.block_ff_deco_brazier_large_geo",
+            "shadow": true, 
+            "up": "world", 
+            "forward": "surface"
+        }
+    }
+}

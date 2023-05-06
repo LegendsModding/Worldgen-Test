@@ -1,0 +1,43 @@
+{
+  "id": "tex_stamp_glacier_mountain_huge_01",
+  "textures": [
+    {
+      "texture": "ff_glacier_mountain/tex_stamp_glacier_mountain_huge_01",
+      "channels": {
+        "r": "blend",
+        "g": "biome",
+        "b": "terrain_height"
+      }
+    }
+  ],
+  "additional_data" : {
+    "absolute_height" : true
+  },
+
+  "biome_map": [
+    {
+      "biome": "ff_glacier_mountain_summit",
+      "value": 250
+    },
+    {
+      "biome": "ff_glacier_mountain_peaks",
+      "value": 200
+    },  
+    {
+      "biome": "ff_glacier_mountain_mid_hills",
+      "value": 150
+    },  
+    {
+      "biome": "ff_glacier_mountain_foothills",
+      "value": 100
+    },
+    {
+      "biome": "ff_glacier_mountain_parent_valleys",
+      "value": 75
+    },
+    {
+      "biome": "ff_glacier_mountain_river",
+      "value": 50
+    }
+  ]
+  }

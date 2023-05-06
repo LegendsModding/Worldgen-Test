@@ -1,0 +1,35 @@
+{
+  "defaults": {
+	"allowislands": true,
+	"autosaveenabled": true,
+	"bsharpenabled": true,
+	"campaignactsenabled": true,
+	"campaignobjectivehealthbars": false,
+	"creativemodedefault": false,
+	"difficultymodeenabled": false,
+	"dodaylightcycle": true,
+	"dofogofwar": true,
+	"doplayersinvincible": false,
+	"doweathercycle": true,
+	"enablecinematicdeaths": true,
+	"enableunlocks": true,
+	"entitystreamingenabled": true,
+	"exclusiveluredunits": true,
+	"mapenabled": true,
+	"onboardingenabledcampaign": false,
+	"onboardingenabledpvp": false,
+	"popcapenabled": false,
+	"precachestructures": true,
+	"randomstartingteam": false,
+	"saveonquitenabled": true,
+	"skip_lobby_creation": false,
+	"teamcolors": false,
+	"use_flatlands_level_id": false,
+	"useactiontelemetry": false,
+	"worldsizeaxischunks": 600
+  },
+  "badger:template": {
+    "parent": "game_rules",
+    "game_mode": "frostfireTest"
+  }
+}

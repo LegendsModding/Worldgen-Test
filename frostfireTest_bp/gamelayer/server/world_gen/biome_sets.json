@@ -1,0 +1,34 @@
+{
+  "settings": {
+    "enabled": true,
+    "allow_biome_edge_placements": true,
+    "allow_inside_min_range_placements": true,
+    "allow_outside_max_range_placements": true,
+    "allow_outside_biomesets": true,
+    "allow_split_biomesets": false,
+    "biomeset_pixel_to_blockpos_multiplier": 200.0,
+    "biomeset_scoring_epsilon": 0.5,
+    "pick_weighted_biomes": true,
+    "placement_minimum_chunks_from_edge": 15,
+    "position_radius_scalar_range": [1.3, 1.3],
+    "filler_radius": 0.4,
+    "starting_place_retry_radius": 10,
+    "weight_float_to_int_multiplier": 1000,
+    "dev_logging_grid_resolution": 32
+  },
+  "biome_set_cards": [
+	{
+      "set": "biomeset:layout:ff_glacier_mountain",
+      "tags": ["ff_glacier_mountain"],
+      "biomes": [
+        {
+          "biome": "ff_glacier_mountain_parent_valleys",
+          "weight_range": [1.0, 1.0]
+        }
+      ],
+      "distance_scalar_range": [1.1, 1.4],
+      "pixel_range": [30, 75],
+      "center_bias": [0.4, 0.4]
+    }
+  ]
+}

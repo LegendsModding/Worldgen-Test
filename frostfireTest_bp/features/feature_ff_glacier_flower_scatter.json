@@ -1,0 +1,26 @@
+{
+  "format_version": "1.13.0",
+  "code:place_scattered": {
+    "description": {
+      "identifier": "badger:feature_ff_glacier_flower_scatter"
+    },
+    "places_feature": "badger:feature_ff_glacier_flower_weighted",
+    "iterations": "math.random(100,200)",
+    "scatter_chance": "100",
+    "project_input_to_floor": false,
+    "coordinate_eval_order": "xzy",
+
+    "x": {      
+      "extent": [-7,7],
+      "distribution": "gaussian"
+    },
+    "z": {
+      "extent": [-7,7],
+      "distribution": "gaussian"
+    },
+    "y": {
+      "extent": [-3,3],
+      "distribution": "gaussian"
+    }  
+  }
+}

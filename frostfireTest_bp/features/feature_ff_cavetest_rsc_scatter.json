@@ -1,0 +1,25 @@
+{
+    "format_version": "1.13.0",
+    "code:place_scattered": {
+      "description": {
+        "identifier": "badger:feature_ff_cavetest_rsc_scatter"
+      },
+      "places_feature": "badger:feature_ff_block_air",
+      "iterations": "400",
+      "scatter_chance": "100",
+      "project_input_to_floor": false,
+      "x": {
+        "extent": [-7,7],
+        "distribution": "uniform"
+      },
+      "z": {
+        "extent": [-10,10],
+        "distribution": "uniform"
+      },
+      "y":{
+        "extent": [0,255],
+        "distribution": "uniform"
+      }
+    }
+  }
+  

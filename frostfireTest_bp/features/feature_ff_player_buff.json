@@ -1,0 +1,25 @@
+{
+  "format_version": "1.13.0",
+  "code:place_nbt": {
+    "description": {
+      "identifier": "badger:feature_ff_player_buff"
+    },
+    "structure_name": "nature/buff_ff_poi_02",
+    "placement_range": {
+      "x": [0,1],
+      "z": [0,1]
+    },
+    "facing_direction": "random",
+    "constraints": {
+      "unburied":{},
+      "grounded": {
+        "block_allow_list": [
+          "badger:block_ff_snow", 
+          "badger:block_ff_ice",
+          "badger:block_ff_dirt_snowy"
+        ]
+      },
+      "empty_space": {}
+    }
+  }
+}

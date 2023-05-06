@@ -1,0 +1,41 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "badger:rule_ff_icewheat",
+      "places_feature": "badger:feature_ff_icewheat_scatter"
+    },
+    "conditions": {
+      "enabled": true,
+      "placement_pass": "surface_pass",
+      "minecraft:biome_filter": [
+        {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "ff_glacier_mountain"
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 45,
+      "scatter_chance": "q.poi_distance(v.worldx, v.worldz) > 200 ? 3 : 0",
+      "early_out": "q.water_distance(v.scatteredx, v.scatteredz) <= 5",
+      "coordinate_eval_order": "xzy",
+      "x": {
+        "distribution": "gaussian",
+        "extent": [
+          -15,
+          25
+        ]
+      },
+      "z": {
+        "distribution": "gaussian",
+        "extent": [
+          -15,
+          25
+        ]
+      },
+      "y": "q.heightmap(v.worldx, v.worldz)"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+    "format_version": "1.8.0",
+    "mat_ff_fx_cutout_bird_vulture:mat_badger_particles_cutout": {
+        "textures": {
+            "diffuseMap": "textures/particle/tex_ff_fx_bird_vulture"
+        }
+    },
+	"mat_ff_fx_cutout_dragonfly:mat_badger_particles_cutout": {
+        "textures": {
+            "diffuseMap": "textures/particle/tex_ff_fx_dragonfly"
+        }
+    },
+    "mat_ff_fx_cut_e_spin_bits_green:mat_badger_particles_cutout_emissive": {
+        "pass": "transparentafterworld",
+        "textures": {
+            "diffuseMap": "textures/particle/tex_fx_spin_bits_b",
+            "emissiveMap": "textures/particle/tex_fx_spin_bits_green_e"
+        }
+    },
+    "mat_ff_fx_cut_e_spin_bits_red:mat_badger_particles_cutout_emissive": {
+        "pass": "transparentafterworld",
+        "textures": {
+            "diffuseMap": "textures/particle/tex_fx_spin_bits_b",
+            "emissiveMap": "textures/particle/tex_fx_spin_bits_red_e"
+        }
+    },
+    "mat_ff_fx_mesh_add_buff_red:mat_badger_particles_additive_mesh": {
+        "sortindex": 150,
+        "textures": {
+            "diffuseMap": "textures/particle/tex_ff_fx_energy_ball_b_red",
+            "emissiveMap": "textures/particle/tex_ff_fx_energy_ball_e_red"
+        }
+    },
+    "mat_ff_fx_mesh_add_buff_green:mat_badger_particles_additive_mesh": {
+        "sortindex": 150,
+        "textures": {
+            "diffuseMap": "textures/particle/tex_ff_fx_energy_ball_b_green",
+            "emissiveMap": "textures/particle/tex_ff_fx_energy_ball_e_green"
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "badger:player_spawn_service": {
+      "badger:template": {
+        "game_mode": "frostfireTest",
+        "parent": "badger:player_spawn_service"
+      },
+      "default_mount_archetype": "badger:mount_tiger",
+      "min_block_radius": 25,
+      "pending_villages": [],
+      "player_archetype": "minecraft:player",
+      "respawn_seconds": 3.0
+    }
+  }
+  

@@ -1,0 +1,12 @@
+{
+  "format_version": "1.13.0",
+  "code:place_weighted_random": {
+    "features": [
+      ["badger:feature_ff_cavetest_large_scatter", 55],
+      ["badger:feature_ff_cavetest_density_aggregate",45]
+    ],
+    "description": {
+      "identifier": "badger:feature_ff_cavetest_expression_weighted"
+    }
+  }
+}

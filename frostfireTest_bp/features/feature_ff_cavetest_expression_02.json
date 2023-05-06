@@ -1,0 +1,73 @@
+{
+  "format_version": "1.13.0",
+  "code:place_expression": {
+    "description": {
+      "identifier": "badger:feature_ff_cavetest_expression_02"
+    },
+    "iterations": 350,
+    "resolution": 256,
+    "places_feature": "badger:feature_ff_cavetest_construction_aggregate",
+    "bezier": {
+      "x0": {
+        "extent": [
+          -10,
+           10
+        ],
+        "distribution": "gaussian"
+      },
+      "y0": "return query.heightmap(variable.worldx, variable.worldz) - variable.originy + math.random(-9,5);",
+      "z0": {
+        "extent": [
+          -45,
+          0
+        ],
+        "distribution": "gaussian"
+      },
+      "x1": {
+        "extent": [
+          0,
+          15
+        ],
+        "distribution": "gaussian"
+      },
+      "y1": "return query.heightmap(variable.worldx, variable.worldz) - variable.originy + math.random(-8,1);",
+      "z1": {
+        "extent": [
+          -11,
+          33
+        ],
+        "distribution": "gaussian"
+      },
+      "x2": {
+        "extent": [
+          -11,
+          22
+        ],
+        "distribution": "gaussian"
+      },
+      "y2": "return query.heightmap(variable.worldx, variable.worldz) - variable.originy + math.random(-5,4);",
+      "z2": {
+        "extent": [
+          -25,
+          20
+        ],
+        "distribution": "gaussian"
+      },
+      "x3": {
+        "extent": [
+          -22,
+          11
+        ],
+        "distribution": "uniform"
+      },
+      "y3": "return query.heightmap(variable.worldx, variable.worldz) - variable.originy + math.random(-7,12);",
+      "z3": {
+        "extent": [
+          -22,
+          11
+        ],
+        "distribution": "uniform"
+      }
+    }
+  }
+}

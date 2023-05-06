@@ -1,0 +1,8 @@
+{
+    "format_version": "1.15.0",
+    "badger:client_block": {
+        "badger:block_ff_deco_obelisk_07": {
+            "decoration": "deco_ff_obelisk_07"
+        }
+    }
+}

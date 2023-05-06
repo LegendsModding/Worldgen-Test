@@ -1,0 +1,17 @@
+{
+    "game_modes": [
+      {
+        "behavior_pack": "6f6d6f6d-471d-4c1a-ab25-3656605cc6ac",
+        "default_privacy": 2,
+        "loading_tip_set": "campaign",
+        "max_players": 32,
+        "name": "frostfireTest",
+        "parent": "myth",
+        "resource_pack": "ee831739-6f07-4f50-883d-d774a9164039",
+        "telemetry_name": "frostfireTest",
+        "ui_style": "lostLegend"
+      }
+    ],
+    "myths_hub_host_list": [{ "name": "frostfireTest" }]
+  }
+  

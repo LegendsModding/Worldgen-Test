@@ -1,0 +1,22 @@
+{
+  "format_version": "1.13.0",
+  "code:place_scattered": {
+    "description": {
+      "identifier": "badger:feature_ff_grass_clump_scatter"
+    },
+    "places_feature": "badger:feature_ff_grass_weighted",
+    "iterations": "math.random(25,30)",
+
+    "scatter_chance": "75",
+    "project_input_to_floor": false,
+    "x": {
+      "extent": [-6,6],
+      "distribution": "gaussian"
+    },
+    "z": {
+      "extent": [-6,6],
+      "distribution": "gaussian"
+    },
+    "y": 0.0
+  }
+}

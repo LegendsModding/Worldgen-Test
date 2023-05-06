@@ -1,0 +1,13 @@
+{
+  "format_version": "1.13.0",
+  "code:place_weighted_random": {
+    "description": {
+      "identifier": "badger:feature_ff_grass_weighted"
+    },
+    "features": [
+      ["badger:feature_ff_plant_grass_01", 15.0],
+      ["badger:feature_ff_plant_grass_small_01", 10.0],
+      ["badger:feature_ff_plant_grass_tall_01", 20.0]
+    ]
+  }
+}

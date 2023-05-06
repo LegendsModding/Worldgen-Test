@@ -1,0 +1,33 @@
+{
+  "format_version": "1.13.0",
+  "code:place_scattered": {
+    "description": {
+      "identifier": "badger:feature_ff_glacier_mountain_brazier_large_scatter"
+    },
+    "places_feature": "badger:feature_ff_glacier_mountain_brazier_large",
+    "x": {
+      "extent": [
+        -14,
+        14
+      ],
+      "distribution": "uniform"
+    },
+    "z": {
+      "extent": [
+        -14,
+        14
+      ],
+      "distribution": "uniform"
+    },
+    "iterations": "5",
+    "scatter_chance": 35.0,
+    "project_input_to_floor": false,
+    "y": {
+      "extent": [
+        0.0,
+        8.0
+      ],
+      "distribution": "uniform"
+    }
+  }
+}

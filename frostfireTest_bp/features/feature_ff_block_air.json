@@ -1,0 +1,26 @@
+{
+  "format_version": "1.13.0",
+  "code:place_block": {
+    "description": {
+      "identifier": "badger:feature_ff_block_air"
+    },
+    "enforce_survivability_rules": false,
+    "enforce_placement_rules": false,
+    "places_block": "minecraft:air",
+    "may_attach_to": {
+      "top": [
+        "badger:block_ff_dirt_snowy",
+        "badger:block_ff_snow",
+        "badger:block_ff_ice",
+        "badger:block_ff_dirt",
+        "minecraft:air"
+      ]
+    },
+    "may_replace": [
+      "badger:block_ff_dirt_snowy",
+      "badger:block_ff_snow",
+      "badger:block_ff_ice",
+      "badger:block_ff_dirt"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "format_version": "1.13.0",
+  "code:place_block": {
+    "description": {
+      "identifier": "badger:feature_ff_plant_grass_01"
+    },
+    "may_replace": ["minecraft:air"],
+    "enforce_survivability_rules": false,
+    "enforce_placement_rules": false,
+    "may_attach_to": {
+      "bottom": [
+        "badger:block_ff_snow", 
+        "badger:block_ff_ice",
+        "badger:block_ff_dirt_snowy"
+      ]
+    },
+    "places_block": "badger:block_ff_deco_grass_01"
+  }
+}

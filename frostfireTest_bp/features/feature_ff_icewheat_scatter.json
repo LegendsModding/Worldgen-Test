@@ -1,0 +1,24 @@
+{
+  "format_version": "1.13.0",
+  "code:place_scattered": {
+    "description": {
+      "identifier": "badger:feature_ff_icewheat_scatter"
+    },
+    "places_feature": "badger:feature_ff_icewheat",
+    "iterations": "math.random(95,105)",
+    "scatter_chance":"return 100 * (1 - query.is_in_village(variable.originx, variable.originz));",
+    "project_input_to_floor": false,
+    "x": {
+      "extent": [-24, 24],
+      "distribution": "uniform"
+    },
+    "z": {
+      "extent": [-24, 24],
+      "distribution": "uniform"
+    },
+    "y": {
+      "extent": [-3, 4],
+      "distribution": "uniform"
+    }
+  }
+}

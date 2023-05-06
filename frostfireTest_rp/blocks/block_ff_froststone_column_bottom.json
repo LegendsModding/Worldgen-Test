@@ -1,0 +1,12 @@
+{
+  "format_version": "1.15.0", 
+  "badger:client_block": {
+    "badger:block_ff_froststone_column_bottom": {
+      "textures": {
+        "up": "textures/blocks/tex_ff_block_froststone",
+        "down": "textures/blocks/tex_ff_block_froststone",
+        "side": "textures/blocks/tex_ff_block_froststone_var05"
+    }
+  }
+}
+}

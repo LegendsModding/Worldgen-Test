@@ -1,0 +1,11 @@
+{
+  "format_version": "1.8.0", 
+  "mat_ff_shared_04:base_entity_static": {
+    "material": "DecorationsFancy",
+    "culling": "none",
+    "textures": {
+      "diffuseMap": "textures/blocks/tex_ff_shared_04_d", 
+      "coeffMap": "textures/blocks/tex_ff_shared_04_mr"
+    }
+  }
+}

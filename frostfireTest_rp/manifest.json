@@ -1,0 +1,17 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "pack.description",
+    "min_engine_version": [1, 16, 0],
+    "name": "frostfireTest",
+    "uuid": "ee831739-6f07-4f50-883d-d774a9164039",
+    "version": [1, 0, 0]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "59c11080-d4a3-4845-ad73-fd61a06bdffa",
+      "version": [1, 0, 0]
+    }
+  ]
+}

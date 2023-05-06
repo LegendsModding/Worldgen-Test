@@ -1,0 +1,97 @@
+{
+  "factions": [
+    {
+      "unique_card_id": "badger_center_frostfireTest_center",
+      "placement_name": "center",
+      "placement_type": "special",
+	    "village_data": "badger:xp_well_of_fate",
+      "spawn_entity": "badger:world_center_locator",
+      "initial_villages": {
+        "small": {
+          "count": 1
+        }
+      },
+      "tags": [
+        "frostfireTest",
+        "center"
+      ],
+      "biome": {
+        "biome": "grasslands",
+        "total_pixels": 12,
+        "starting_pixels": 4,
+        "spread_priority": 1
+      },
+      "placement_rules": [
+        {
+          "game_start": {}
+        }
+      ]
+    },
+    {
+      "unique_card_id": "badger_frostfireTest_1",
+      "placement_name": "frostfireTest_1",
+      "placement_type": "biome",
+      "initial_villages": {
+        "small": {
+          "count": 1
+        }
+      },
+      "tags": [
+        "frostfireTest",
+        "testset1"
+      ],
+      "biome": {
+        "biome": "ff_glacier_mountain_parent_valleys",
+        "total_pixels": 128,
+        "starting_pixels": 5,
+        "spread_priority": 1
+      },
+      "placement_rules": [
+        {
+          "distance": {
+            "chunk_distance_from_parent": [
+              0,
+              30
+            ],
+            "distance_to_zero_score": 20,
+            "tag_parent": "center",
+            "weight": 3
+          }
+        }
+      ]
+    },
+    {
+      "unique_card_id": "badger_frostfireTest_2",
+      "placement_name": "frostfireTest_2",
+      "placement_type": "biome",
+      "initial_villages": {
+        "small": {
+          "count": 1
+        }
+      },
+      "tags": [
+        "frostfireTest",
+        "testset2"
+      ],
+      "biome": {
+        "biome": "ff_glacier_mountain_parent_valleys",
+        "total_pixels": 128,
+        "starting_pixels": 5,
+        "spread_priority": 1
+      },
+      "placement_rules": [
+        {
+          "distance": {
+            "chunk_distance_from_parent": [
+              0,
+              30
+            ],
+            "distance_to_zero_score": 20,
+            "tag_parent": "center",
+            "weight": 3
+          }
+        }
+      ]
+    }
+  ]
+}

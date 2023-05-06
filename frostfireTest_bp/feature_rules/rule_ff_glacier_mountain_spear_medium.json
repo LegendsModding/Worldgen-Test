@@ -1,0 +1,43 @@
+{
+  "format_version": "1.13.0",
+
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "badger:rule_ff_glacier_mountain_spear_medium",
+      "places_feature": "badger:feature_ff_glacier_mountain_spear_medium_scatter"
+    },
+    "conditions": {
+      "enabled": true,
+      "placement_pass": "after_surface_pass",
+      "minecraft:biome_filter": [
+        {
+          "any_of": [
+            {
+              "all_of": [
+                {
+                  "test": "has_biome_tag",
+                  "operator": "==",
+                  "value": "ff_glacier_mountain"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": "10",
+      "scatter_chance": "75",
+      "coordinate_eval_order": "xzy",
+      "x": {
+        "distribution": "gaussian",
+        "extent": [-20, 20]
+      },
+      "z": {
+        "distribution": "gaussian",
+        "extent": [-20, 20]
+      },
+      "y": "q.heightmap(v.worldx, v.worldz)"
+    }
+  }
+}
